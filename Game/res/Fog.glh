@@ -1,0 +1,5 @@
+
+float getFog(vec3 fragmentPosition, vec3 cameraPosition)
+{
+	return length(fragmentPosition - cameraPosition) / 1024.0;
+}
